@@ -1,0 +1,321 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: black;
+    color: rgb(223, 202, 202);
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+       
+}
+
+.naveitem-link {
+    text-decoration: none;
+    color: rgb(223, 202, 202);
+}
+.naveitem-link:hover {
+    color: rgb(78, 75, 75);
+    transition-delay: 1ms;
+}
+
+.hero{
+    height: 870px;
+    width: 100%;
+}
+
+.sticky_section{
+    background-color: black;
+    color: rgb(223, 202, 202);
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+}
+.sticky_section p {
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+      }
+
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about .left {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 150px;
+    padding-right: 90px;
+    width: 40%;
+}
+
+.about .left h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 45px;
+}
+.about .left p{
+    font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+        color: black;
+}
+.about .left button{
+    margin-top: 18px;
+    padding: 20px;
+    width: 180px;
+    cursor: pointer;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-radius: 10cqmax;
+
+}
+.about .left button:hover {
+    background-color: black;
+    color: beige;
+}
+
+.hero .carousel-inner button {
+    margin-top: 18px;
+    padding: 20px;
+    width: 180px;
+    cursor: pointer;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-radius: 10cqmax;
+}
+
+.hero .carousel-inner button:hover {
+    background-color: black;
+    color: beige;
+}
+
+.ethos {
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    padding-left: 200px;
+}
+.ethos h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ethos p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.total {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(177, 145, 207);
+}
+
+.total .equality {
+    width: 500px;
+    height: auto;
+    margin: 50px;
+    padding: 30px;
+    background-color: rgb(238, 235, 231);
+}
+
+.total .sustainability {
+    width: 500px;
+    height: auto;
+    margin: 50px;
+    padding: 30px;
+    background-color:  rgb(238, 235, 231);
+}
+
+.total .inclusivity {
+    width: 500px;
+    height: auto;
+    margin: 50px;
+    padding: 30px;
+    background-color:  rgb(238, 235, 231);
+}
+
+.total p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.total h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sponcer {
+    h1 {
+        color: white;
+    }
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 500px;
+
+}
+
+.infode{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    background-color: black;
+    color: rgb(223, 202, 202);
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.leftinfo{
+    padding: 100px;
+}
+.rightinfo{
+    padding: 100px;
+i{
+    font-size: 50px;
+}
+}
+.artwork { 
+  background-color: rgb(120, 66, 172);
+  color: aliceblue;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  border: 2px solid black;
+  padding-left: 25%;
+}
+ .artwork h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 40%;
+ }
+
+.vision{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+.vision .left {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 150px;
+    padding-right: 90px;
+    width: 40%;
+}
+
+.vision .left h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 45px;
+}
+.vision .left p{
+    font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+        color: white;
+}
+
+
+.foundation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+.foundation .right {
+
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 40%;
+}
+
+.foundation .right h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 45px;
+
+}
+.foundation .right p{
+    font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+    
+}
+.foundation button{
+    font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+    padding: 10px;
+}
+
+.wonder{
+    img {
+        width: 150px;
+        height: 150px;
+        border: 2px solid white;
+        margin: 15px;
+        padding: 5px;
+        border-radius: 100%;
+    }
+   padding-left: 25%;
+}
